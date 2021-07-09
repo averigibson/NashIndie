@@ -17,8 +17,6 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://nashindie.com)
-
 This is my firstwebsite.
 
 <!-- CONTRIBUTING -->
@@ -45,7 +43,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/averigibson/nashindie)
+Project Link: [https://github.com/averigibson/NashIndie](https://github.com/averigibson/NashIndie.git)
 
 <!-- ACKNOWLEDGEMENTS -->
 
