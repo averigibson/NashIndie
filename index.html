@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nashville Indie Music 🤘</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        background: radial-gradient(
+          circle at 10% 20%,
+          rgb(253, 193, 104, 0.7) 0%,
+          rgb(251, 128, 128, 0.7) 90%
+        );
+      }
+      h1 {
+        margin: 30px 75px;
+        color: #57385c;
+      }
+
+      h2 {
+        margin: 20px;
+        font-weight: lighter;
+        color: #a75265;
+      }
+      hr {
+        border: 1px solid white;
+        line-height: inherit;
+      }
+      div {
+        margin: 0;
+        color: white;
+        font-size: 16px;
+        padding: 20px;
+      }
+
+      ul {
+        list-style-type: none;
+        display: block;
+        text-align: center;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.2);
+        border: 2px solid white;
+        border-radius: 5px;
+        width: 50%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      li {
+        float: inline-end;
+      }
+
+      li a {
+        display: inline-block;
+        width: auto;
+        height: auto;
+        text-align: center;
+        overflow: hidden;
+        color: white;
+        padding: 16px;
+        text-decoration: none;
+      }
+
+      li a:hover {
+        background-color: #a75265;
+        border-radius: 5px;
+        transition: 0.5s ease-in-out;
+        box-shadow: 5px 2px 2px whitesmoke;
+      }
+      p.nashville {
+        color: #ec7263;
+        font-size: 20px;
+        width: auto;
+        text-align: center;
+      }
+
+      img {
+        border-radius: 5px;
+        border: 2px solid white;
+        border-spacing: 20px;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.2);
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+      span {
+        font-size: 10px;
+        text-align: left;
+        color: white;
+        display: inline-block;
+      }
+      p.venues {
+        font-size: 16px;
+        color: white;
+        margin: 10px;
+        padding: 20px;
+      }
+      p.author {
+        color: #ec7263;
+        font-size: 20px;
+        width: auto;
+        text-align: center;
+      }
+
+      a.link {
+        margin: 30px;
+        padding: 16px;
+        font-size: 20px;
+        color: white;
+      }
+      a.gmail {
+        margin: 30px;
+        padding: 16px;
+        font-size: 20px;
+        color: white;
+      }
+
+      a:hover {
+        background-color: #a75265;
+        border-radius: 5px;
+        transition: 0.5s ease-in-out;
+        box-shadow: 5px 2px 2px whitesmoke;
+      }
+
+      button {
+        color: white;
+        background-color: #ec7263;
+        border: 2px solid #ec7263;
+        border-radius: 5px;
+        margin: 5px;
+        padding: 20px;
+        font-size: 20px;
+        line-height: normal;
+      }
+      button:hover {
+        color: #a75265;
+        background-color: white;
+        border: 2px solid white;
+        border-radius: 5px;
+        transition: 0.5s ease-in-out;
+        box-shadow: 5px 2px 2px #ec7263;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>🤘 Nashville Indie Music 🤘</h1>
+
+    <h2>
+      Check out the latest indie bands in <em>Music City</em> ,
+      <strong>U.S.A.</strong>
+      <hr />
+    </h2>
+    <div>
+      Nashville may be known for its honky tonks and country music scene, but it
+      actually is home to a lot of great alternative bands!
+    </div>
+
+    <ul>
+      <p class="nashville">
+        Here are a few artists that got their start in Nashville:
+      </p>
+      <li><a href="https://www.thisiscoin.com/" target="_blank">COIN</a></li>
+      <li>
+        <a
+          href="https://www.arlie.band/karma/?ref=https://www.google.com/"
+          target="_blank"
+          >Arlie</a
+        >
+      </li>
+      <li>
+        <a href="https://www.nightloveyou.com/" target="_blank">Nightly</a>
+      </li>
+      <li>
+        <a href="https://www.bristonmaroney.com/" target="_blank"
+          >Briston Maroney</a
+        >
+      </li>
+    </ul>
+    <br />
+    <img
+      src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/011/783/original/flor.jpeg?1624834686"
+      alt="Flor at EXIT/IN"
+      width="500px"
+    />
+    <span>Flor playing at the EXIT/IN September 2019</span>
+    <p class="venues">
+      Head to local venues like
+      <strong>EXIT/IN, Cannery Ballroom, Marathon Music Works, </strong> or
+      <strong> The Basement </strong>to see some of the best bands in town.
+    </p>
+    <br />
+    <button>Sign up for our Nashville Indie Newsletter!</button>
+  </body>
+  <script>
+    function signUp() {
+      let name = prompt("What is your name?");
+      let email = prompt("Please enter your email address below");
+      let age = prompt("How old are you?");
+      if (age < 18) {
+        alert(
+          name +
+            ", welcome to the Nashville Indie Newsletter! 🎸 Make sure to check if the venue allows minors before purchasing any tickets! 🔞"
+        );
+      } else {
+        alert(
+          name + ", welcome to the Nashville Indie Newsletter! 🎸 Rock on!"
+        );
+      }
+    }
+    let signUpButton = document.querySelector("button");
+    signUpButton.addEventListener("click", signUp);
+  </script>
+  <footer>
+    <p class="author">
+      Coded by Averi Gibson, using <strong>HTML, CSS, and JavaScript</strong>
+    </p>
+    <p>
+      <a class="gmail" href="mailto:averigibson@gmail.com"
+        >averigibson@gmail.com</a
+      >
+    </p>
+  </footer>
+</html>
